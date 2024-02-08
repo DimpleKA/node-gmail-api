@@ -6,7 +6,7 @@ const postData = {
 };
 
 // Define the URL of your Express server's /send-email endpoint
-const url = 'http://localhost:3000/send-email';
+const url = 'https://node-gmail.onrender.com/send-email';
 
 // Define options for the fetch request
 const options = {
