@@ -2,11 +2,12 @@
 const postData = {
     recipientEmail: 'vatsalrishabh00@gmail.com',
     subject: 'Test Email',
-    text: 'This is a test email message.'
+    text: 'This is a test email message.',
+    password: 'pibubdtsbaonaxep' // Add your Gmail password here
 };
 
 // Define the URL of your Express server's /send-email endpoint
-const url = 'https://node-gmail.onrender.com/send-email';
+const url = 'http://localhost:3000/send-email';
 
 // Define options for the fetch request
 const options = {
